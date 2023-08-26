@@ -15,5 +15,7 @@ def showbanner():
  /_____/  \___ \ |   |  |__/       \   |  \  |   /    //   --   \ /_____/
          /____  >|___|____/______  /___|  /__|  /____/ \______  /
               \/       ''' + WHITE + "Gemin1" + CEND + " " + CVIOLET + '''    \/    \/      ''' + UGREEN + "Version" + CBLUE + " 10" + CEND + CVIOLET + '''    \/    ''' + CEND)
-        print("                                  " + CYELLOW + "Revision " + CBLUE + "1" + CEND + "                                                  ")
+        print(
+            f"                                  {CYELLOW}Revision {CBLUE}1{CEND}                                                  "
+        )
 showbanner()
